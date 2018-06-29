@@ -13,10 +13,10 @@ Follow the [Fablabs.io Developer Guide](http://docs.fablabs.io) to learn how to 
 All examples run on port 3001, so make sure to specify **http://localhost:3001/auth/callback** as the redirect URL.
 
 Once you have the credentials, you should set the following environment variables before running the examples
-
+```
 export FABLABS_IO_API_KEY='your key'
 export FABLABS_IO_API_SECRET='your secret'
-
+```
 If you use a **local server**:
 ```
 export FABLABS_IO_API_HOST='http://api.fablabs.local:3000'
