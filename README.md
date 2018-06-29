@@ -29,8 +29,8 @@ export FABLABS_IO_WEB_HOST='http://www.staging.fablabs.io:3000'
 ```
 If you use the **production server**
 ```
-export FABLABS_IO_API_HOST='http://api.fablabs.io:3000'
-export FABLABS_IO_WEB_HOST='http://www.fablabs.io:3000'
+export FABLABS_IO_API_HOST='https://api.fablabs.io'
+export FABLABS_IO_WEB_HOST='https://www.fablabs.io'
 ```
 
 ## Examples index
