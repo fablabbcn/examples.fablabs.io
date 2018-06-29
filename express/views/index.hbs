@@ -1,0 +1,37 @@
+<h1>{{title}}</h1>
+
+
+{{#if error }}
+ {{ error }}
+{{/if}}
+
+
+{{#if token }}
+Access Token: {{ token.access_token }} <br>
+
+{{#if profile }}
+
+{{#if profile.avatar_url}}
+<img src="{{profile.avatar_url}}" style="width: 128px; border-radius: 128px"> <br/>
+{{/if}}
+
+<strong>{{profile.username}}</strong>
+
+<br>
+
+{{profile.first_name}} {{profile.last_name}} <br>
+
+{{profile.email}}
+
+{{/if}}
+
+
+ <p><a href="/logout">Logout</a></p>
+
+ {{else}}
+ 
+ <h2>I don't know you!</h2>
+ <p><a href="/login">Login with Fablabs</a></p>
+ 
+ {{/if}}
+
