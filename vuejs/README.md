@@ -16,11 +16,19 @@ yarn
 
 ## Update environment variables
 
-
+Edit the file config.js to reflect your settings, for local development, assuming you are running the docker environment, the only things you need to adjust are the client_id and client_secret.
 
 ## Start your local server for authentication
 
 ```
-yarn 
+yarn local-auth 
+```
 
+## Start the vuejs server
+
+```
+yarn serve
+```
+
+Browse http://localhost:8080
 

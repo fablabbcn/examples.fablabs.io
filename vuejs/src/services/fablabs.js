@@ -27,7 +27,6 @@ export default class FabLabsApi {
                     return item.attributes
                 } 
             } catch(error){
-                console.log(error)
                 return null
             }
         }
